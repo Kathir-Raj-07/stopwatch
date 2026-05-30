@@ -40,7 +40,7 @@ startBtn.addEventListener("click", () => {
         updateDisplay();
     }, 10);
 });
-
+//
 stopBtn.addEventListener("click", () => {
     clearInterval(timer);
     timer = null;
